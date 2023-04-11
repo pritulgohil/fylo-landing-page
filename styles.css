@@ -190,12 +190,13 @@ li{
 
 .flex-box{
     display: flex;
-    padding:50px 0 0 5%;
+    padding:50px 0 0 0;
 }
 
 .flap1{
     width:50%;
     height: 100vh;
+    padding-left: 5%;
 }
 
 .flap1, .flap2{
@@ -347,7 +348,7 @@ hr{
     }
 
     .things{
-        padding: 5% 5% 3% 5%;
+        padding: 5% 5% 3% 3%;
         align-items: center;
         justify-content: unset;
         gap:30px;
