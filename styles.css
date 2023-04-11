@@ -196,7 +196,7 @@ li{
 .flap1{
     width:50%;
     height: 100vh;
-    padding-left: 5%;
+    padding-left: 0;
 }
 
 .flap1, .flap2{
