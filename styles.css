@@ -187,3 +187,221 @@ li{
         margin-top: 100px;
     }
 }
+
+.flex-box{
+    display: flex;
+    padding:50px 0 0 0;
+}
+
+.flap1{
+    width:50%;
+    height: 100vh;
+}
+
+.flap1, .flap2{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-color: #F8F8FD;
+}
+
+.things{
+    padding: 3% 5% 100px 5%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap:50px;
+    justify-content: center;
+}
+
+.things h2{
+    font-size: 3rem;
+}
+
+.things p{
+    font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 1440px){
+    .things h2{
+        font-size:2rem;
+    }
+
+    .things p{
+        font-size:1rem;
+        line-height: 1.5;
+    }
+
+    .item1 p{
+        font-size: 1.5rem;
+    }
+
+    .things{
+        gap:30px;
+    }
+
+    .card{
+        height:400px;
+        background-color: red;
+    }
+
+    .padding{
+        gap:20px;
+    }
+
+    hr{
+        width:50px;
+    }
+}
+
+.card{
+    background-color: white;
+    width:60%;
+    height:250px;
+    border-radius: 15px;
+}
+
+.card p{
+    font-size:1rem;
+    line-height: 1.5;
+}
+
+.padding{
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.profile{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.padding img{
+    width:20px;
+    height:20px;
+}
+
+.profile img{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.profile p{
+    font-size:0.8rem;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.flap2{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 5% 3% 5%;
+}
+
+.flap2 img{
+    width:100%;
+}
+
+.item1{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.green img{
+    width:30px;
+    height: 30px;
+}
+
+hr{
+    width:260px;
+    border-color:rgb(0, 66, 0);
+    height: 10px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-width: 5px;
+}
+
+@media only screen and (max-width: 810px){
+    .flex-box{
+        flex-direction: column-reverse;
+        padding-top: 100px;
+    }
+
+    .flap1{
+        width:100%;
+        padding-top: unset;
+    }
+
+    .flap2{
+        width:100%;
+        background-color: #F8F8FD;
+    }
+
+    .things{
+        padding: 5% 5% 3% 5%;
+        align-items: center;
+        justify-content: unset;
+        gap:30px;
+    }
+
+    .things h2{
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .things .center{
+        font-size: 1.5rem;
+    }
+
+    .center{
+        text-align: center;
+    }
+
+    .heroine{
+        height:unset;
+    }
+
+    .flap1{
+        height:unset;
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .card{
+        width:100%;
+    }
+
+    .flex-box h2{
+        font-size: 2rem;
+    }
+
+    .flex-box p{
+        font-size:1rem;
+    }
+
+    .flap1{
+        padding-top: 30px;
+    }
+
+    .card{
+        height:300px;
+    }
+
+    .item1 p{
+        font-size: 1.5rem;
+    }
+}
+
+
