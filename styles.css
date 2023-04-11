@@ -348,7 +348,7 @@ hr{
     }
 
     .things{
-        padding: 5% 5% 3% 3%;
+        padding: 5% 5% 3% 5%;
         align-items: center;
         justify-content: unset;
         gap:30px;
