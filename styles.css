@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding: 3% 5% 3% 5%;
+    flex: 0 1 auto;
+}
+
+.menu ul{
+    display: flex;
+    gap:50px;
+}
+
+li{
+    list-style: none;
+}
+
+.flex-container{
+    padding: 3% 5% 3% 5%;
+    display: flex;
+    gap:10%;
+    flex: 1 1 auto;
+}
+
+.side1{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    justify-content: center;
+}
+
+.side1 h2{
+    font-size:3rem;
+    line-height: 1.5;
+}
+
+.side1 p{
+    font-size:1.5rem;
+    line-height: 1.5;
+}
+
+.form{
+    display: flex;
+    gap:2%;
+}
+
+.form input{
+    width:50%;
+    height:50px;
+    font-size:1rem;
+    padding:2%;
+    border:1px solid rgb(70, 70, 70);
+    border-radius: 5px;
+}
+
+.form button{
+    width:20%;
+    height: 50px;
+    font-size:1rem;
+    border-radius: 5px;
+    border-style: none;
+    background-color: hsl(224, 93%, 58%);
+    color:white;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.side2{
+    width:50%;
+    display: flex;
+    align-items: center;
+}
+
+.side2 img{
+    width:100%;
+}
+
+@media only screen and (max-width: 810px){
+    .menu ul li{
+        font-size:1.4rem;
+        align-items: center;
+    }
+
+    .header{
+        align-items: center;
+    }
+
+    .flex-container{
+        flex-direction: column-reverse;
+    }
+
+    .side1{
+        width:100%;
+        text-align: center;
+    }
+
+    .side2{
+        width:100%;
+    }
+
+    .form{
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .form input{
+        width:100%;
+    }
+
+    .form button{
+        width:100%;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .logo img{
+        width:100px;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu ul{
+        display: flex;
+        gap:20px;
+        justify-content: center;
+    }
+
+    .menu ul li{
+        font-size:1rem;
+    }
+
+    .header{
+        display:flex;
+        padding: 3% 5% 3% 5%;
+        justify-content: space-between;
+        flex: 0 1 auto;
+        align-items: center;
+    }
+
+    .flex-container{
+        gap:5%;
+    }
+
+    .side1 h2{
+        font-size: 2rem;
+    }
+
+    .side1 p{
+        font-size:1rem;
+    }
+}
+
