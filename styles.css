@@ -10,7 +10,6 @@
     height: 100vh;
     display: flex;
     flex-flow: column;
-    gap:20px;
 }
 
 .header{
@@ -135,6 +134,10 @@ li{
     .logo{
         display: flex;
         justify-content: center;
+    }
+
+    .hero{
+        gap:50px;
     }
 
     .menu ul{
