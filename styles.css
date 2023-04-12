@@ -2,8 +2,14 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+}
+
+h2{
     font-family: 'Raleway', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
 }
 
 .hero{
@@ -17,6 +23,7 @@
     justify-content: space-between;
     padding: 3% 5% 3% 5%;
     flex: 0 1 auto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .menu ul{
@@ -512,6 +519,67 @@ hr{
 
     .texts h2{
         font-size:1.5rem;
+    }
+}
+
+footer{
+    background-color: hsl(243, 87%, 12%);
+}
+
+.stuff{
+    padding: 3% 5% 3% 5%;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin-top: 30px;
+}
+
+.footer-elements{
+    color:white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.fa-brands{
+    font-size:1.5rem;
+}
+
+.fa-solid{
+    color:white;
+}
+
+.phone{
+    display: flex;
+    gap:10px;
+    font-size:1rem;
+    align-items: center;
+}
+
+.email{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+@media only screen and (max-width: 450px){
+    .footer-elements{
+        flex-direction: column;
+    }
+
+    .row{
+        justify-content: center;
+    }
+
+    .stuff{
+        padding-top:50px;
+        padding-bottom: 50px;
     }
 }
 
