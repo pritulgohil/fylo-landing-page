@@ -407,4 +407,112 @@ hr{
     }
 }
 
+.early-access{
+    background-color: hsl(238, 22%, 44%);
+}
+
+.texts{
+    width:50%;
+}
+
+.place{
+    padding: 3% 5% 3% 5%;
+    color: white;
+    display: flex;
+}
+
+.margin p{
+    margin-top:20px;
+}
+
+.texts input{
+    width:100%;
+    height:50px;
+    font-size:1rem;
+    padding:2%;
+    border:1px solid rgb(70, 70, 70);
+    border-radius: 5px;
+}
+
+.texts button{
+    width:200px;
+    height: 50px;
+    font-size:0.8rem;
+    border-radius: 5px;
+    border-style: none;
+    background-color: hsl(224, 93%, 58%);
+    color:white;
+    letter-spacing: 1px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    align-items: center;
+}
+
+.align{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:20px;
+    width:70%;
+}
+
+.margin h2{
+    font-size:3rem;
+}
+
+.margin p{
+    font-size:1.3rem;
+    line-height: 1.5;
+}
+
+@media only screen and (max-width: 1440px){
+    .margin h2{
+        font-size:2rem;
+    }
+    
+    .margin p{
+        font-size:1rem;
+        line-height: 1.5;
+    }
+}
+
+@media only screen and (max-width: 810px){
+    .texts{
+        width:100%;
+    }
+    
+    .place{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap:30px;
+    }
+
+    .align{
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .align{
+        width:100%;
+    }
+
+    .align button{
+        width:100%;
+    }
+
+    .place{
+        padding: 40px 5% 40px 5%;
+    }
+
+    .texts h2{
+        font-size:1.5rem;
+    }
+}
+
 
